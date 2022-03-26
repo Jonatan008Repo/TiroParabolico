@@ -1,0 +1,17 @@
+canvas{
+	border:solid 1px #ccc;
+}
+.tituloPanel{
+    font-size:large;
+    font-weight:bolder;
+    color:#013079!important;
+}
+.tiro{
+    font-size:larger;
+    font-weight:bold;
+    text-align:center;
+}
+.titulo1 {
+    color: #013079 !important;
+    font-style:italic;
+}

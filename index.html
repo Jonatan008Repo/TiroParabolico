@@ -1,0 +1,114 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="src/style.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="src/jcanvas.js"></script>
+    <title>Esplash - Eskuash</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center titulo1"><span class="glyphicon glyphicon-star"></span> Esplash - Eskuash <span
+                class="glyphicon glyphicon-star"></span></h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="">
+                        <h3 class="panel-title tituloPanel">Tiro a la diana</h3>
+                    </a>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <h3>Bienvenido, guerrero, a la prueba del tiro a la diana.</h3>
+                        <div class="mycanvas well">
+                            <canvas id="lienzo1" class="img-responsive" width="630" height="330"></canvas>
+                            <br />
+                        </div>
+                        <div id="perRes5">
+                        </div>
+                        <div class="well well-large">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6">
+                                    <label for="nfact" class="control-label">a</label>
+                                    <input class="form-control" type="number" value="0.1" id="coefA" />
+                                    <div id="perRes2"></div>
+                                    <label for="nfact" class="control-label">b</label>
+                                    <input class="form-control" type="number" value="1" id="coefB" />
+                                    <div id="perRes3"></div>
+                                    <label for="nfact" class="control-label">c</label>
+                                    <input class="form-control" type="number" value="1" id="coefC" />
+                                    <div id="perRes4"></div>
+                                    <button type="" id="btn1" class="btn btn-primary btn-block">Calcula</button>
+                                </div>
+                                <div class="col-xs-6 col-lg-6">
+                                    <div style="margin-top:10%" class="text-justify">
+                                        <p>Selecciona los coeficientes de la ecuación cuadrática de tu tiro parabólico.
+                                        </p>
+                                        <p class="text-center">Ecuación cuadrática: <strong><i>y = -ax<sup>2</sup> + bx
+                                                    + c</i></strong>.</p>
+                                        <p class="text-center"><i>0 < a < 1</i>
+                                        </p>
+                                        <p class="text-center">
+                                            <i>0 < b < 50</i>
+                                        </p>
+                                        <p class="text-center">
+                                            <i>0 < c < 300</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="">
+                        <h3 class="panel-title tituloPanel">Instrucciones</h3>
+                    </a>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body text-justify">
+                        <p>
+                            En las lejanas tierras de Atzintlan hay una legendaria tradición en la que cada dos o tres
+                            años, los más grandes guerreros de las 2<sup>3</sup> regiones participan en una competencia
+                            llena de agua, diversión e inteligencia.
+                        </p>
+                        <p>Esta competencia ocurre en verano y es llamada Esplash - Eskuash. Consiste en una serie de
+                            pruebas que refrescan a los acalorados participantes y los hacen pensar.</p>
+                        <p>Una de las pruebas de Esplash - Eskuash es el tiro a la diana, en el que debes de tirar una
+                            bomba de agua (determinando los coeficientes de la ecuación cuadrática del tiro parabólico)
+                            a un lugar previamente marcado, el cual es una diana en el piso.</p>
+                        <img class="img-responsive" src="bootstrap/snip_20180119183338.png" />
+                        <p>Cada participante debe de mojar la región delimitada por la circunferencia roja en la
+                            plataforma. Tiene cinco oportunidades para lograrlo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<script type="text/javascript" src="plano.js"></script>-->
+        <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mymodal">Open Modal</button>-->
+    </div>
+    <div id="mymodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Esplash - Eskuash</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="ganador">
+                        Bienvenido al torneo de Esplash-Eskuash
+                        de Atzintlan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="src/main.js"></script>
+</body>
+</html>
