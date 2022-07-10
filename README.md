@@ -80,7 +80,11 @@ $ git clone https://github.com/Jonatan008Repo/tiroparabolico
 $ cd tiroparabolico
 
 ```
+<<<<<<< HEAD
 Correr <code>index.html</code> con la extension [Live Server](https://github.com/ritwickdey/vscode-live-server)
+=======
+Correr index.html con al extension [Live Server](https://github.com/ritwickdey/vscode-live-server)
+>>>>>>> 21c9f6f0c3c065f25d74ade2219de7178ea02385
 
 ## :memo: License ##
 
