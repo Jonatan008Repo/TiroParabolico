@@ -6,22 +6,26 @@
   <a href="http://projects.jonatan008.com/tiroParabolico/">Demo</a>
 </div>
 
-<h1 align="center">TiroParabolico</h1>
+<h1 align="center">Tiro Parabolico</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Jonatan008Repo/tiroparabolico?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Jonatan008Repo/tiroparabolico?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Jonatan008Repo/tiroparabolico?color=56BEB8">
+  
+  <img alt="file" src="https://img.shields.io/github/directory-file-count/Jonatan008Repo/tiroparabolico?style=plastic" >
+  
+ 
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8">
+  <!--<img alt="License" src="https://img.shields.io/github/license/Jonatan008Repo/tiroparabolico?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8" /> -->
+   <img alt="Github issues" src="https://img.shields.io/github/issues/Jonatan008Repo/tiroparabolico?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Jonatan008Repo/tiroparabolico?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/tiroparabolico?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/Jonatan008Repo/tiroparabolico?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -36,63 +40,55 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/Jonatan008Repo" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
-
-Describe your project
+Este proyecto es un simulador de tiro parabólico utilizando la ecuación cuadrática, el usario puede introducir los valores <b><i>a, b, c</i></b> y con esos datos poder dibujar sobre una gráfica el tiro, el juego esta apoyado sobre una historia de un juego para case y contesto.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Tiene campos <b><i>a, b, c</i></b> para la ecuación cuadrática .\
+:heavy_check_mark: Al calcular se dibuja sobre el plano la curva parabólica\
+:heavy_check_mark: Cada nuevo calculo con nuevos valores de va registrando como un hsitorial.\
+:heavy_checK_mark: Se usan collapse de bootstrap para acomoidar la perte del juego y la parte de las instrucciones para si darle uan resposiviadad;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
+- Html
+- CSS
+- JavaScript
+- [Bootstrap](https://getbootstrap.com/)
+- [jquery-3.1.1](https://jquery.com/)
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
-## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/tiroparabolico
+$ git clone https://github.com/Jonatan008Repo/tiroparabolico
 
 # Access
 $ cd tiroparabolico
 
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
 ```
+Correr index.html con al extension [Live Server](https://github.com/ritwickdey/vscode-live-server)
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
+Made with :heart: by <a href="https://github.com/Jonatan008Repo" target="_blank">Jonatan Vergara Escobar</a>
+  <img src="https://img.shields.io/twitter/follow/_JONATAN008?style=social"> 
 &#xa0;
 
 <a href="#top">Back to top</a>
