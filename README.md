@@ -48,7 +48,7 @@
 <br>
 
 ## :dart: About ##
-Este proyecto es un simulador de tiro parabólico utilizando la ecuación cuadrática, el usario puede introducir los valores <b><i>a, b, c</i></b> y con esos datos poder dibujar sobre una gráfica el tiro, el juego esta apoyado sobre una historia de un juego para case y contesto.
+Este proyecto es un simulador de tiro parabólico que esta utilizando la ecuación cuadrática, el usario puede introducir los valores <b><i>a, b, c</i></b> y con esos datos poder dibujar sobre una gráfica el tiro para dar en una diana, el juego esta apoyado sobre una historia de un juego para base y contesto como objetivo.
 
 ## :sparkles: Features ##
 
