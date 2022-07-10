@@ -40,6 +40,7 @@ Las siguientes herramientas fueron utilizadas:
 - JavaScript
 - [Bootstrap](https://getbootstrap.com/)
 - [jquery-3.1.1](https://jquery.com/)
+- [jCanvas](https://projects.calebevans.me/jcanvas/)
 
 ## :checkered_flag: Starting ##
 ```bash
@@ -54,9 +55,10 @@ Correr <code>index.html</code> con la extensión [Live Server](https://github.co
 
 ## :memo: License ##
 This project is under license from MIT.
-Made with :heart: by <a href="https://github.com/Jonatan008Repo" target="_blank">Jonatan Vergara Escobar</a>
 
-  <img src="https://img.shields.io/twitter/follow/_JONATAN008?style=social">
+Made with :heart: by <a href="https://github.com/Jonatan008Repo" target="_blank">Jonatan Vergara Escobar</a>
+<img src="https://img.shields.io/twitter/follow/_JONATAN008?style=social">
+
 &#xa0;
 
 <a href="#top">Back to top</a>
