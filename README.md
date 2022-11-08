@@ -3,7 +3,7 @@
   <img src="https://jonatan008.com/assets/img/favicon.ico" alt="TiroParabolico" width="100"/>
 
   &#xa0;
-  <a href="http://projects.jonatan008.com/tiroParabolico/">Demo</a>
+  <a href="https://projects.jonatan008.com/tiroParabolico/">Demo</a>
 </div>
 
 <h1 align="center">Tiro Parabólico</h1>
